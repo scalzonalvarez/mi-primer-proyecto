@@ -57,25 +57,25 @@ Como gold_daily_sales no tiene una fila por día, para calcular tasas hay que su
 
 ### Consigna 1: ¿Qué día tuvo el mayor monto y fue también el de más transacciones?
 
-![C1](images/c1_evolucion_temporal.png)
+![C1](c1_evolucion_temporal.png)
 
 El 1/3/2026 tuvo el mayor monto ($7.310.840,77) y también la mayor cantidad de transacciones (7.236), así que los dos máximos coinciden. El ticket promedio de ese día ($1.010,34) es casi igual al del período ($1.000,54), por lo que el pico se explica por la cantidad de compras y no porque fueran más caras.
 
 ### Consigna 2: ¿Qué canal tiene la mayor tasa de fraude?
 
-![C2](images/c2_canal_fraude.png)
+![C2](c2_canal_fraude.png)
 
 Transfer tiene la mayor tasa (13,91%), contra 12,97% de wallet y 12,54% de card. La conclusión se sostiene porque los tres canales tienen casi el mismo volumen (alrededor de 16.800 transacciones cada uno) y la diferencia es significativa (p de 0,01 aprox).
 
 ### Consigna 3: ¿Qué combinación de país y categoría genera más monto? ¿Hay una categoría dominante?
 
-![C3](images/c3_pais_categoria.png)
+![C3](c3_pais_categoria.png)
 
 Elegí un mapa de calor porque permite comparar países y categorías al mismo tiempo. La combinación con más monto es Brasil y home ($2.371.688,08). No hay una categoría dominante: home lidera en BR, UY y CL, y books en AR y MX, siempre con solo un 22 o 23% del monto del país.
 
 ### Consigna 4: ¿El lote nuevo tiene una calidad distinta al inicial?
 
-![C4](images/c4_calidad_lotes.png)
+![C4](c4_calidad_lotes.png)
 
 | Lote | Total | Rechazadas | % rechazo |
 |---|---|---|---|
