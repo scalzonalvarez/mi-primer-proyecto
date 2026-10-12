@@ -14,7 +14,7 @@ Aclaración: mi segundo lote incremental quedó con el nombre batch_004 (corrí 
 
 ## 1. DAG del Job
 
-![DAG del Job](images/dag_job.png)
+![DAG del Job](dag_job.png)
 
 | Tarea | Notebook | Qué hace |
 |---|---|---|
