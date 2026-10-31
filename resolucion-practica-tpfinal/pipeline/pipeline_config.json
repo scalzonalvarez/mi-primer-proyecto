@@ -1,0 +1,17 @@
+{
+  "name": "tp-final-wine-medallion",
+  "catalog": "workspace",
+  "schema": "tp_final_wine",
+  "serverless": true,
+  "channel": "CURRENT",
+  "continuous": false,
+  "development": true,
+  "configuration": {
+    "source_path": "/Volumes/workspace/tp_final_wine/raw/"
+  },
+  "libraries": [
+    { "file": { "path": "pipeline/ingesta/01_bronze.sql" } },
+    { "file": { "path": "pipeline/etl/02_silver.sql" } },
+    { "file": { "path": "pipeline/etl/03_gold.sql" } }
+  ]
+}
